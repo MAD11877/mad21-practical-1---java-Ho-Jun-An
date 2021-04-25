@@ -18,6 +18,14 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.println("Enter number of * for base:");
+    int base = in.nextInt();
+
+    for(int i = base; i > 0; i--){
+      for(int n = i; n > 0; n--){
+        System.out.print("*");
+      }
+      System.out.println("");
+    }
   }
 }
